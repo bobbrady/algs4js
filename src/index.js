@@ -6,7 +6,7 @@ import MaxSubArray from './dynamic-programming/MaxSubArray';
 import SimpleStringAlgs from './strings/SimpleStringAlgs';
 import DecimalToRomanNumerals from './misc/DecimalToRomanNumeral';
 
-export default {
+module.exports = {
   // Sorting
   quickSort: QuickSort,
   mergeSort: MergeSort,

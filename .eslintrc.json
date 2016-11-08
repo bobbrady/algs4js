@@ -1,9 +1,11 @@
 {
-    "parser": "babel-eslint",
-    "extends": "airbnb",
-    "installedESLint": true,
-    "plugins": [
-    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": "airbnb/base",
     "rules": {
       "comma-dangle": ["error", "never"],
       "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
