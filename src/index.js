@@ -8,12 +8,12 @@ import DecimalToRomanNumerals from './misc/DecimalToRomanNumeral';
 
 module.exports = {
   // Sorting
-  quickSort: QuickSort,
-  mergeSort: MergeSort,
-  heapSort: HeapSort,
+  quickSort: QuickSort.quickSort,
+  mergeSort: MergeSort.mergeSort,
+  heapSort: HeapSort.heapSort,
   // Dynamic Programming
-  fatorial: Factorial,
-  maxSubArray: MaxSubArray,
+  fatorial: Factorial.calculateFactorial,
+  maxSubArray: MaxSubArray.findMaxSubArray,
   // Strings,
   simpleStringAlgs: SimpleStringAlgs,
   // Misc
