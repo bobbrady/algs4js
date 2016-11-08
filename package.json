@@ -1,6 +1,6 @@
 {
   "name": "algs4js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Basic algorithms and data structures implemented with es6",
   "main": "./dist/index.js",
   "scripts": {
