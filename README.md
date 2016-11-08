@@ -14,8 +14,21 @@ It provides the following features:
 * Latest modules used for all dependencies, including babel v6
 * JSDoc style comments used to document the code
 
+## Functionality
+
+|   Function      | Algorithm           | Import  |
+| :-------------|:-------------| :-----|
+|Sorting | Quick Sort | import { QuickSort} from 'algs4j' |
+|Sorting | Merge Sort | import { MergeSort} from 'algs4j' |
+|Sorting | Heap Sort | import { HeapSort} from 'algs4j' |
+|Dynamic Programming | Factorial | import { Factorial} from 'algs4j' |
+|Dynamic Programming | Max Sub Array | import { MaxSubArray } from 'algs4j' |
+|Misc String Algs| Palindrome, Reverse | import { SimpleStringAlgs } from 'algs4j' |
+|Misc Deciaml to Roman| Conversion | import { DecimalToRomanNumeral } from 'algs4j' |
+
+
 ## Usage
-``javascript`
+```javascript
 import { QuickSort } from 'algs4j';
 
 const arr = [5, 4, 3, 2, 1];
