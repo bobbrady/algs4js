@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gulp",
     "test": "mocha --recursive --compilers js:babel-register",
-    "prepublish": "npm run build && npm test"
+    "prepublish": "npm run build && npm test",
     "coverage": "istanbul cover _mocha -- --recursive --compilers js:babel-register"
   },
   "repository": {
