@@ -1,6 +1,6 @@
 {
   "name": "algs4js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic algorithms and data structures implemented with es6",
   "main": "./dist/index.js",
   "scripts": {
@@ -37,7 +37,9 @@
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
     "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^3.0.2",
-    "winston": "^2.2.0"
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "winston": "^2.3.0"
   }
 }
