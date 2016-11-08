@@ -33,5 +33,5 @@ const arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
 console.log(`Unsorted Arr: ${arr}`);
 QuickSort.sort(arr);
 console.log(`Sorted Arr: ${arr}`);
-// arr is now [1, 2, 3, 4, 5]
+// arr is now [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
