@@ -1,5 +1,5 @@
 {
-  "name": "algorithms-with-es6",
+  "name": "algs4js",
   "version": "1.0.0",
   "description": "Basic algorithms and data structures implemented with es6",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bobbrady/algorithms-with-es6.git"
+    "url": "https://github.com/bobbrady/algs4js.git"
   },
   "keywords": [
     "algorithms",
