@@ -5,7 +5,7 @@
  */
 class DecimalToRomanNumerals {
 
-  static convertToRoman(num) {
+  static convert(num) {
     const decimals = num.toString().split('').reverse();
     const roman = [];
     for (let i = 0; i < decimals.length; i++) {

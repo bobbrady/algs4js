@@ -10,7 +10,7 @@ class HeapSort {
    *
    * @param {object} arr - the array to be sorted
    */
-  static heapSort(arr) {
+  static sort(arr) {
     // Build max heap so max item is at top (index zero)
     this.buildHeap(arr);
     // Swap max value at top for last item.  Tickle down top value to N-1 heap.

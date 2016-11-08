@@ -33,7 +33,7 @@ class Factorial {
    * @param {number} num, the number to calculate its factorial
    * @returns {number} the factorial
    */
-  static calculateFactorial(num) {
+  static calc(num) {
     this.validate(num);
     logger.debug(`Calculating the factorial of ${num}`);
     let fim1 = 1;

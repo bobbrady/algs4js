@@ -11,7 +11,7 @@ describe('QuickSort', () => {
   beforeEach(() => {
     randArr = ArrayUtil.randomIntArray(100, 100);
     logger.debug(`Random Array to be sorted: ${randArr}`);
-    QuickSort.quickSort(randArr);
+    QuickSort.sort(randArr);
     logger.debug(`Sorted Array: ${randArr}`);
   });
   it('Sorts random array of size 100: Test 1', () => {

@@ -6,17 +6,17 @@
  */
 class MergeSort {
 
-  static mergeSort(arr) {
-    this.sort(arr, 0, arr.length - 1);
+  static sort(arr) {
+    this.mergeSort(arr, 0, arr.length - 1);
   }
 
-  static sort(arr, left, right) {
+  static mergeSort(arr, left, right) {
     if (left >= right) {
       return;
     }
     const mid = Math.floor(left + ((right - left) / 2));
-    this.sort(arr, left, mid);
-    this.sort(arr, mid + 1, right);
+    this.mergeSort(arr, left, mid);
+    this.mergeSort(arr, mid + 1, right);
     this.merge(arr, left, mid, right);
     return;
   }
@@ -50,10 +50,5 @@ class MergeSort {
   }
 
 }
-
-const arr = [3, 1, 2, 5, 4];
-console.log(`Merge sorting array ${arr}`);
-MergeSort.mergeSort(arr);
-console.log(`After Merge sorting array ${arr}`);
 
 export default MergeSort;

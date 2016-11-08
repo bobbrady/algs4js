@@ -7,17 +7,17 @@ import logger from '../util/LogUtil';
  */
 class QuickSort {
 
-  static quickSort(arr) {
-    this.sort(arr, 0, arr.length - 1);
+  static sort(arr) {
+    this.quickSort(arr, 0, arr.length - 1);
   }
 
-  static sort(arr, left, right) {
+  static quickSort(arr, left, right) {
     const idx = this.partition(arr, left, right);
     if (right <= left) {
       return;
     }
-    this.sort(arr, left, idx);
-    this.sort(arr, idx + 1, right);
+    this.quickSort(arr, left, idx);
+    this.quickSort(arr, idx + 1, right);
   }
 
   /* eslint no-param-reassign: 0 */

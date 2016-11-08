@@ -17,7 +17,7 @@ class MaxSubArray {
    * @param {number[]} the input array of numbers
    * @returns {number} the maxium subarray sum
    */
-  static findMaxSubArray(arr) {
+  static find(arr) {
     logger.debug(`Finding max of arr ${arr}`);
     if (!Array.isArray(arr) || arr.length === 0) {
       return null;

@@ -8,14 +8,14 @@ import DecimalToRomanNumerals from './misc/DecimalToRomanNumeral';
 
 module.exports = {
   // Sorting
-  quickSort: QuickSort.quickSort,
-  mergeSort: MergeSort.mergeSort,
-  heapSort: HeapSort.heapSort,
+  QuickSort,
+  MergeSort,
+  HeapSort,
   // Dynamic Programming
-  fatorial: Factorial.calculateFactorial,
-  maxSubArray: MaxSubArray.findMaxSubArray,
+  Factorial,
+  MaxSubArray,
   // Strings,
-  simpleStringAlgs: SimpleStringAlgs,
+  SimpleStringAlgs,
   // Misc
-  decimalToRomanNumerals: DecimalToRomanNumerals
+  DecimalToRomanNumerals
 };

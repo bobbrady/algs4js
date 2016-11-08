@@ -15,11 +15,11 @@ It provides the following features:
 * JSDoc style comments used to document the code
 
 ## Usage
-```
-import algs4js from 'algs4j'
+``javascript`
+import { QuickSort } from 'algs4j';
 
 const arr = [5, 4, 3, 2, 1];
-algs4js.quicksort(arr);
+QuickSort.sort(arr);
 
 // arr is now [1, 2, 3, 4, 5]
 ```
