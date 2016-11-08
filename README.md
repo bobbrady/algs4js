@@ -15,9 +15,8 @@ It provides the following features:
 * JSDoc style comments used to document the code
 
 ## Functionality
-
-|   Function      | Algorithm           | ES5 Requires | ES6 Import  |
-| :-------------|:-------------| :-----|
+| Function | Algorithm | ES5 Requires | ES6 Import  |
+| :-------------|:-------------|:------------------------|:-------------------------|
 |Sorting | Quick Sort | var QuickSort = require('algs4j').QuickSort | import { QuickSort} from 'algs4j' |
 |Sorting | Merge Sort | var MergeSort = require('algs4j').MergeSort | import { MergeSort} from 'algs4j' |
 |Sorting | Heap Sort | var HeapSort = require('algs4j').HeapSort | import { HeapSort} from 'algs4j' |
@@ -25,7 +24,6 @@ It provides the following features:
 |Dynamic Programming | Max Sub Array | var MaxSubArray = require('algs4j').MaxSubArray | import { MaxSubArray } from 'algs4j' |
 |Misc String Algs| Palindrome, Reverse | var SimpleStringAlgs = require('algs4j').SimpleStringAlgs | import { SimpleStringAlgs } from 'algs4j' |
 |Misc Decimal to Roman| Conversion | var DecimalToRomanNumeral = require('algs4j').DecimalToRomanNumeral | import { DecimalToRomanNumeral } from 'algs4j' |
-
 
 ## Usage
 ```javascript
