@@ -5,7 +5,10 @@ It provides the following features:
 * Basic Algorithms with Data Structures
 * Sorting: quicksort, mergesort, heapsort
 * Dynamic Programming: factorial, max sub array
-* Misc: string interview questions (reverse, palindrome), decimal-to-roman-numeral conversion
+* Misc
+  * String interview questions (reverse, palindrome)
+  * Decimal-to-Roman-Numeral conversion
+  * Chess knight shortest path
 * Code written in ES6
 * Babel transpiling through a simple gulp task
 * Linting with eslint using the AirBnB rules
@@ -24,6 +27,7 @@ It provides the following features:
 |Dynamic Programming | Max Sub Array | var MaxSubArray = require('algs4j').MaxSubArray | import { MaxSubArray } from 'algs4j' |
 |Misc String Algs| Palindrome, Reverse | var SimpleStringAlgs = require('algs4j').SimpleStringAlgs | import { SimpleStringAlgs } from 'algs4j' |
 |Misc Decimal to Roman| Conversion | var DecimalToRomanNumeral = require('algs4j').DecimalToRomanNumeral | import { DecimalToRomanNumeral } from 'algs4j' |
+|Misc Knight's Shortest Path| Breadth First Search | var KnightShortestPath = require('algs4j').KnightShortestPath | import { KnightShortestPath } from 'algs4j'|
 
 ## Usage
 ```javascript
