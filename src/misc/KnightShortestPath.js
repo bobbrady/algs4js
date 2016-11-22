@@ -1,10 +1,10 @@
   /**
-            Class to find shortest path
+                Class to find shortest path
 
-            This class uses a Depth First Search (DFS) algorithm to find the shortest path.
+                This class uses a Breadth First Search (BFS) algorithm to find the shortest path.
 
-            @class
-          */
+                @class
+              */
   class KnightShortestPath {
 
     /**
@@ -26,7 +26,7 @@
     }
 
     /**
-      This function will use DFS to find the shortest path between
+      This function will use BFS to find the shortest path between
       two squares.  The results are an array of move predecessor
       indices.  The predecessor array is a MoveEngine property.
 
